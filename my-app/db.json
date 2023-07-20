@@ -1,0 +1,905 @@
+{
+    "doctors":[
+    {
+     "id": 1,
+     "Speciality": "Endocrinology and Diabetology",
+     "name": "Dr. Aniruddha Bhattacharya",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MD (Med.), DM (Endocrinology)",
+     "time": "Saturday 4:00 PM",
+     "fee": " ₹700/-"
+    },
+    {
+     "id": 2,
+     "Speciality": "Dermatology",
+     "name": "Dr. Prasun Kumar Ghosh",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, DPH (AIIH & PH), MD (Dermatology, Venereology and Leprosy), Clinical Cosmetologist and Dermato Surgeon",
+     "time": "Saturday 2:00 - 2:30 PM",
+     "fee": " ₹600/-"
+    },
+    {
+     "id": 3,
+     "Speciality": "Oncology",
+     "name": "Dr. S K Ghosh",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS (Gold Medallist), MD",
+     "time": "Saturday 2:00 - 2:30 PM",
+     "fee": " ₹600/-"
+    },
+    {
+     "id": 4,
+     "Speciality": "Oncology",
+     "name": "Dr. Shyam Sharma",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MD, Radiotherapy (Cancer Specialist)",
+     "time": "Saturday",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 5,
+     "Speciality": "Pulmonology",
+     "name": "Dr. Mannaf Ali",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MD (Chest Medicine), Specialist in Chest and Pulmonary Medicine",
+     "time": "Wednesday and Friday 11:00 AM",
+     "fee": " ₹300/-"
+    },
+    {
+     "id": 6,
+     "Speciality": "Pulmonology",
+     "name": "Dr. Arnab Bera",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, MD (Pulmo.)",
+     "time": "Alternate Sunday 12:00 PM",
+     "fee": " ₹700/-"
+    },
+    {
+     "id": 7,
+     "Speciality": "Nephrology",
+     "name": "Dr. Govardhan Gupta",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, DNB (Gen. Med.), Dr. N B (Nephrology), MNAMS (New Delhi)",
+     "time": "Thursday 5:00 PM",
+     "fee": " ₹700/-"
+    },
+    {
+     "id": 8,
+     "Speciality": "Urology",
+     "name": "Dr. Gourab Kundu",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, MS, MCH",
+     "time": "Daily 6:00 PM",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 9,
+     "Speciality": "Urology",
+     "name": "Dr. Nabankur Ghosh",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MS, DNB, MRCS (Glasgow), MCH (Urology)",
+     "time": "Tuesday 4:00 PM",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 10,
+     "Speciality": "Neurology",
+     "name": "Dr. S B Roy",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MD, DM (Neuro.)",
+     "time": "Tuesday 4:00 PM",
+     "fee": " ₹800/-"
+    },
+    {
+     "id": 11,
+     "Speciality": "Neurology",
+     "name": "Dr. M C Saha",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, MD (Med.) (CAL.), Consultant General Physician and Neuro-medicine",
+     "time": "Wednesday 12:00 PM",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 12,
+     "Speciality": "Neuro Surgery",
+     "name": "Dr. Gopal Achari",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MCH (Neuro Surgery), Consultant Neurosurgeon",
+     "time": "Sunday 10:00 AM",
+     "fee": " ₹1200/-"
+    },
+    {
+     "id": 13,
+     "Speciality": "Neurology",
+     "name": "Dr. Jayanta Chakraborty",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MD, DM (Neuro.)",
+     "time": "Tuesday and Wednesday 9 AM",
+     "fee": " ₹800/-"
+    },
+    {
+     "id": 14,
+     "Speciality": "Cardiology",
+     "name": "Dr. Ritendra Talapatra",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, DFM (CMC,Vellore), DIP (Card.), DNB (Gen. Med.), DNB (Card.), MRCP, FRCP(Glasgow), FSCAI, MACC (USA), MESC (EU), MNAMS, CCEBDM (International Diabetes Federation)",
+     "time": "Saturday 4:00 PM",
+     "fee": " ₹600/-"
+    },
+    {
+     "id": 15,
+     "Speciality": "Cardiology",
+     "name": "Dr. Sougata Sanyal",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MD, PGDCC, CCEBDM",
+     "time": "Monday, Wednesday and Thursday 10:00 AM",
+     "fee": " ₹600/-"
+    },
+    {
+     "id": 16,
+     "Speciality": "Cardiology",
+     "name": "Dr. Shyamal Kr. Saha",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, PHD (Med.) PGDCC (Card.)",
+     "time": "Sunday 2:30 PM",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 17,
+     "Speciality": "Cardiology",
+     "name": "Dr. Auriom Kar",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "DM (Cardiologist)",
+     "time": "Daily except Tuesday and Sunday",
+     "fee": " ₹600/-"
+    },
+    {
+     "id": 18,
+     "Speciality": "Cardiology",
+     "name": "Dr. Debi Dutta",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS (KOL.), PGDCC, FCGS, CCEBDM, Consultant Clinical Cardiologist",
+     "time": "Tuesday 12 PM",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 19,
+     "Speciality": "Orthopaedics",
+     "name": "Dr. B Koushik",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, MS (Sr. Consultant Orthopaedic Surgeon), Joint Replacement and Trauma Surgeon",
+     "time": "Monday to Friday 5:00 PM",
+     "fee": " ₹600/-"
+    },
+    {
+     "id": 20,
+     "Speciality": "Orthopaedics",
+     "name": "Dr. Rahul Mondal",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, MS (Ortho.) (WBUHS), DNB, MNAMS",
+     "time": "Monday to Friday 5:00 PM",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 21,
+     "Speciality": "Orthopaedics",
+     "name": "Dr. J Halder",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, MS (Ortho.) Medical College Hospital",
+     "time": "Tuesday | 5:00 PM",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 22,
+     "Speciality": "Gynaecology",
+     "name": "Dr. Jyotishka Ghosh",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, MS (Obs. & Gyn.)",
+     "time": "Sunday and Thursday | 11:00 AM",
+     "fee": " ₹400/-"
+    },
+    {
+     "id": 23,
+     "Speciality": "Gynaecology",
+     "name": "Dr. Pritha Chakraborty",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MS (Obs. & Gyn.), SSKM (PG) Hospital Gold Medallist, MRCOG(I), UK Ex RMO at Belle Vue Clinic, Ex House Staff (CCU) Medical College Kolkata, MBBS (Medical College Kolkata)",
+     "time": "Friday",
+     "fee": " ₹400/-"
+    },
+    {
+     "id": 24,
+     "Speciality": "Gynaecology",
+     "name": "Dr. Kankan Chattapadhyay",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, DGO, MS (Gen. Surg.)",
+     "time": "Daily",
+     "fee": " ₹450/-"
+    },
+    {
+     "id": 25,
+     "Speciality": "Gynaecology",
+     "name": "Dr. Siuli Chowdhury",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, DGO, FMAS, Fellowship in IVF & Reproductive Medicine (Kell,,Germany)",
+     "time": "Every day except Sunday",
+     "fee": " ₹550/-"
+    },
+    {
+     "id": 26,
+     "Speciality": "Gynaecology",
+     "name": "Dr. S D Mahapatra",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, MS (Obs. & Gyn.)",
+     "time": "Thursday | 12:00 PM",
+     "fee": " ₹700/-"
+    },
+    {
+     "id": 27,
+     "Speciality": "Gynaecology",
+     "name": "Dr. Nilotpal Kulavi",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS (CAL.), DPH, DGO (CAL.), Gold Medallist, M PHIL (Regenarative Medicine and Translational Science), Experienced in Infertility Treatment Specialist in Sexually Transmitted Diseases Consultant Gynaecologist & Obstetrician",
+     "time": "Daily | 10:00 AM - 12:00 PM",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 28,
+     "Speciality": "Gynaecology",
+     "name": "Dr. Saktirupa Ghosh",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS (CAL.), DGO (CAL.), DNB (CET, New Delhi) Sonologist (G&O), Specially Trained Infertility Treatment and Laparoscopic Surgery",
+     "time": "Saturday | 10:00 AM Tuesday and Wednesday | 4:00 PM",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 29,
+     "Speciality": "Gynaecology",
+     "name": "Dr. Subrata Samanta",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS (CAL.), DGO, MS (Obs. & Gyn.)",
+     "time": "Sunday | 11:00 AM",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 30,
+     "Speciality": "Gynaecology",
+     "name": "Dr. (Mrs.) Indrani Das (Samanta)",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS (CAL.), DTCD, MS (Obs. & Gyn.)",
+     "time": "Sunday | 11:00 AM",
+     "fee": " ₹600/-"
+    },
+    {
+     "id": 31,
+     "Speciality": "ENT",
+     "name": "Dr. Subhamay Karmakar",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS (CAL), DLO (CAL), MS (ENT)",
+     "time": "Wednesday | 1 PM",
+     "fee": " ₹600/-"
+    },
+    {
+     "id": 32,
+     "Speciality": "Paediatrics",
+     "name": "Dr. Souti Biswas",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, DGO, MD (Paed. Med.)",
+     "time": "Tuesday, Thursday, Friday | 10:30 AM",
+     "fee": " ₹400/-"
+    },
+    {
+     "id": 33,
+     "Speciality": "Paediatrics",
+     "name": "Dr. Krishnakali Bhattacharya",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS (Hon.), MD",
+     "time": "Daily | 11 AM",
+     "fee": " ₹450/-"
+    },
+    {
+     "id": 34,
+     "Speciality": "Paediatrics",
+     "name": "Dr. Aparna Biswas",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, DCH, DNB (Paed.)",
+     "time": "Daily except Tuesday and Sunday | 6 PM",
+     "fee": " ₹400/-"
+    },
+    {
+     "id": 35,
+     "Speciality": "Paediatrics",
+     "name": "Dr. Sumanta Bhattacharya",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, DCH, MRCPCH (1), PGPN, IPPN",
+     "time": "Wednesday and Sunday | 12 PM",
+     "fee": " ₹600/-"
+    },
+    {
+     "id": 36,
+     "Speciality": "Surgeon",
+     "name": "Dr. Manoranjan Ghosh",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS (KOL.), MS (Gen Surg.) M.CH (Paed. Surg.) Consultant General Laparoscopic & Paediatric Surgeon",
+     "time": "Tuesday",
+     "fee": " ₹400/-"
+    },
+    {
+     "id": 37,
+     "Speciality": "Surgeon",
+     "name": "Dr. Alok Kumar Moulik",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, MS (Gen. Surg.)",
+     "time": "Daily",
+     "fee": " ₹600/-"
+    },
+    {
+     "id": 38,
+     "Speciality": "General Physician",
+     "name": "Dr. Nilanjan Kar",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "BSC, MBBS (NRSMCH)",
+     "time": "Sunday and Thursday (By Appointment) | 10:00 AM",
+     "fee": " ₹300/-"
+    },
+    {
+     "id": 39,
+     "Speciality": "General Physician",
+     "name": "Dr. Koushik Chatterjee",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS",
+     "time": "Sunday and Monday | By Appointment",
+     "fee": " ₹300/-"
+    },
+    {
+     "id": 40,
+     "Speciality": "General Physician",
+     "name": "Dr. Rajib Sankar Saha",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, (NRS, WBUHS), Physician Ex. House Physician in PED.MED (NRSMCH)",
+     "time": "Daily except Sunday, Tuesday, Friday | 10:00 AM and 5:00 PM",
+     "fee": " ₹300/-"
+    },
+    {
+     "id": 41,
+     "Speciality": "General Medicine",
+     "name": "Dr. M Adhikari",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, MD (Physiology) R G Kar Medical College and Hospital, Ex-house Physician in the Dept. of General Medicine at R G Kar Medical College and Hospital General Practitioner",
+     "time": "Sunday 2:30 PM",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 42,
+     "Speciality": "General Medicine",
+     "name": "Dr. Amit Kumar Das",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, MD (Gen. Med.), Tutor at NRS Medical College",
+     "time": "Daily except Tuesday and Sunday",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 43,
+     "Speciality": "General Medicine",
+     "name": "Dr. Tanmoy Banerjee",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MD, ACLS BLS trained, General Medicine, Consultant Physician",
+     "time": "Daily except Monday, Saturday and Sunday | 3:30 PM",
+     "fee": " ₹400/-"
+    },
+    {
+     "id": 44,
+     "Speciality": "General Medicine",
+     "name": "Dr. Tirthankar Sarkar",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, MD, Diabetologist",
+     "time": "Tuesday | 4:00 PM",
+     "fee": " ₹400/-"
+    },
+    {
+     "id": 45,
+     "Speciality": "General Medicine",
+     "name": "Dr. Susanta Chakraborty",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, MD, CCEBDM (Experienced in Diabetology)",
+     "time": "Friday (By Appointment) | 4:00 PM",
+     "fee": " ₹600/-"
+    },
+    {
+     "id": 46,
+     "Speciality": "General Medicine",
+     "name": "Dr. P Guha Neogi",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS (Hons.) (CAL.), MD (Med.), DNB (Med.), Card. and Diabetologist",
+     "time": "Friday (By Appointment) | 4:00 PM",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 47,
+     "Speciality": "General Medicine",
+     "name": "Dr. Shekhar Paul",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MD (CAL.), CCEBDM, Post Graduate Course in Diabetology Critical Care Certificate (Calcutta Medical College), Assistant Prof. (School of Tropical Medicine) Consultant Physician Critical Care and Diabetes Consultation",
+     "time": "Daily except Thursday and Sunday | 3:00 PM",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 48,
+     "Speciality": "Dentistry",
+     "name": "Dr. Mehebuba Sultana",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "BDS, MDS (Oral & Maxillofacial Pathology)",
+     "time": "Thursday 1 - 4 PM",
+     "fee": " ₹200/-"
+    },
+    {
+     "id": 49,
+     "Speciality": "Dentistry",
+     "name": "Dr. Prakash Das",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "BDS",
+     "time": "Saturday 4 - 6 pm",
+     "fee": " ₹200/-"
+    },
+    {
+     "id": 50,
+     "Speciality": "Dentistry",
+     "name": "Dr. Sagnik Banerjee",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "BDS, MDS (Prosthodontics. Crowns & Bridge and Oral Implantology)",
+     "time": "Monday, Friday 10 AM - 1 PM and Wednesday 5 - 7 PM",
+     "fee": " ₹300/-"
+    },
+    {
+     "id": 51,
+     "Speciality": "Dentistry",
+     "name": "Dr. Abhijit Das",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "BDS",
+     "time": "Tuesday and Thursday 10 AM - 1 PM",
+     "fee": " ₹300/-"
+    },
+    {
+     "id": 52,
+     "Speciality": "Homoepathy",
+     "name": "Dr. Mani Sankar Maiti",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "BHMS, CDTP, DITA, CWD, MPH",
+     "time": "2nd & 4th Monday 9 AM",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 53,
+     "Speciality": "Homoepathy",
+     "name": "Dr. Ayan Mitra",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "BHMS",
+     "time": "Daily 1 PM",
+     "fee": " ₹150/-"
+    },
+    {
+     "id": 54,
+     "Speciality": "Urology",
+     "name": "Dr. Kunal Kapoor",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MS, MCH",
+     "time": "Wednesday 5 PM",
+     "fee": " ₹600/-"
+    },
+    {
+     "id": 55,
+     "Speciality": "Urology",
+     "name": "Dr. Sunirmal Chowdhury",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, MS, DA, MCH",
+     "time": "1st & 3rd Tuesday 4 PM",
+     "fee": " ₹600/-"
+    },
+    {
+     "id": 56,
+     "Speciality": "Surgeon",
+     "name": "Dr. Rima Sultana",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, MS, FMAS (Gen. and Lap. Surgeon)",
+     "time": "Tuesday, Thursday, Friday | 10:30 AM",
+     "fee": " ₹300/-"
+    },
+    {
+     "id": 57,
+     "Speciality": "Surgeon",
+     "name": "Dr. Rishi Ranjan Srivastava",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MS (Gen & Lap.) (Attached : Baruipur SD)",
+     "time": "Thursday 3-5 PM",
+     "fee": " ₹300/-"
+    },
+    {
+     "id": 58,
+     "Speciality": "Physician",
+     "name": "Dr. Shahajada Mondal",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, (Attached : Baruipur SD)",
+     "time": "Tuesday 12 PM",
+     "fee": " ₹250/-"
+    },
+    {
+     "id": 59,
+     "Speciality": "Physician",
+     "name": "Dr. Brikodar patary",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MD",
+     "time": "Tuesday 12 PM",
+     "fee": " ₹300/-"
+    },
+    {
+     "id": 60,
+     "Speciality": "Physician",
+     "name": "Dr. Parveez Biswas",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS",
+     "time": "Sunday",
+     "fee": " ₹300/-"
+    },
+    {
+     "id": 61,
+     "Speciality": "Physician",
+     "name": "Dr. Nasim Ahmed",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS (Attached : AMRI)",
+     "time": "Tuesday, Wednesday and Saturday By Appointment",
+     "fee": " ₹200/-"
+    },
+    {
+     "id": 62,
+     "Speciality": "Physician",
+     "name": "Dr. Prithwis Roy",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, MD (Path.)",
+     "time": "Tuesday, Saturday, Sunday 3 PM",
+     "fee": " ₹400/-"
+    },
+    {
+     "id": 63,
+     "Speciality": "Physician",
+     "name": "Dr. Shubhayan Banik",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, MD (Path.)",
+     "time": "Monday, Wednesday, Thursday 3 PM",
+     "fee": " ₹400/-"
+    },
+    {
+     "id": 64,
+     "Speciality": "Physician",
+     "name": "Dr. Pulak Ghosh Dastidar",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, PGDCC",
+     "time": "Tuesday and Thursday 3.30 PM",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 65,
+     "Speciality": "Paediatrics",
+     "name": "Dr. Subir Pal",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "DCH",
+     "time": "Monday, Wednesday, Thursday 3 PM",
+     "fee": " ₹300/-"
+    },
+    {
+     "id": 66,
+     "Speciality": "Orthopedics",
+     "name": "Dr. Amal Bhattacharya",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, FRCS, MCH",
+     "time": "Monday and Thursday 4 - 6 PM",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 67,
+     "Speciality": "Orthopedics",
+     "name": "Dr. Somnath Ghosh",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, D.Ortho, Consultant Ortho Surgeon",
+     "time": "Tuesday 5 PM & Saturday 6 PM",
+     "fee": " ₹300/-"
+    },
+    {
+     "id": 68,
+     "Speciality": "Orthopedics",
+     "name": "Dr. Mistun Banerjee",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, DNB (Fortis Hospital)",
+     "time": "Friday 6 PM",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 69,
+     "Speciality": "Orthopedics",
+     "name": "Dr. Debasish Naskar",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, MS (Ortho.) AO Trauma (Adv.) Observership National University Hospital (Singapore)",
+     "time": "Daily 1 PM",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 70,
+     "Speciality": "Neuro Psychiatry",
+     "name": "Dr. Shyamal Chakraborty",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, DPM, FIPS, FIAPP",
+     "time": "Monday 1 PM",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 71,
+     "Speciality": "Gastroenterology",
+     "name": "Dr. Shreyashi Maity",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS",
+     "time": "Thusday 9 PM",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 72,
+     "Speciality": "Gynaecology and Obstetrics",
+     "name": "Dr. Anwesha Chakraborty",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, MS (G&O), DNB (N.B.E), MRCOG PART-1",
+     "time": "Saturday 1 PM or 7 PM by Appointment",
+     "fee": " ₹400/-"
+    },
+    {
+     "id": 73,
+     "Speciality": "Gynaecology and Obstetrics",
+     "name": "Dr. N R Saha",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "DGO",
+     "time": "Friday and Saturday 10 AM, Sunday and Monday 5 - 7 PM",
+     "fee": " ₹400/-"
+    },
+    {
+     "id": 74,
+     "Speciality": "Gynaecology and Obstetrics",
+     "name": "Dr. Isuva Mondal",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS (Cal.), DPH (AIIH&PH), MS (Gynae. & Obs.), Consultant Gynaecologist",
+     "time": "Saturday 3.30 PM",
+     "fee": " ₹400/-"
+    },
+    {
+     "id": 75,
+     "Speciality": "Gynaecology and Obstetrics",
+     "name": "Dr. Manjushree Halder",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MS",
+     "time": "Saturday 1 PM or 7 PM by Appointment",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 76,
+     "Speciality": "Gynaecology and Obstetrics",
+     "name": "Dr. Jhilik Basu",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MS. MRCOG-1",
+     "time": "Wednesday 4 PM",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 77,
+     "Speciality": "Gynaecology and Obstetrics",
+     "name": "Dr. Tahira Parveen",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "DGO",
+     "time": "Monday 8 PM and Thursday 3 PM",
+     "fee": " ₹400/-"
+    },
+    {
+     "id": 78,
+     "Speciality": "Gynaecology and Obstetrics",
+     "name": "Dr. Bidisha Roychowdhury",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, DNB, MRCOG, FMAS, FIAOG (Attached : SSKM)",
+     "time": "Monday 4 - 5 PM",
+     "fee": " ₹300/-"
+    },
+    {
+     "id": 79,
+     "Speciality": "Gynaecology and Obstetrics",
+     "name": "Dr. Papia Biswas",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MS",
+     "time": "Thursday 1 - 2 PM",
+     "fee": " ₹300/-"
+    },
+    {
+     "id": 80,
+     "Speciality": "Gynaecology and Obstetrics",
+     "name": "Dr. Sk. Jayati Mukherjee",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "DGO",
+     "time": "Tuesday and Saturday By Appointment",
+     "fee": " ₹300/-"
+    },
+    {
+     "id": 81,
+     "Speciality": "Gynaecology and Obstetrics",
+     "name": "Dr. Saraswati Sharma",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "DGO",
+     "time": "Monday 8 PM and Thursday 3 PM",
+     "fee": " ₹300/-"
+    },
+    {
+     "id": 82,
+     "Speciality": "Gynaecology and Obstetrics",
+     "name": "Dr. Saibal Bakshi",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, DGO, DNB",
+     "time": "Tuesday 11 AM",
+     "fee": " ₹400/-"
+    },
+    {
+     "id": 83,
+     "Speciality": "ENT",
+     "name": "Dr. Debojyoti Das",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, MS",
+     "time": "Tuesday and Thursday 7 - 8 PM",
+     "fee": " ₹400/-"
+    },
+    {
+     "id": 84,
+     "Speciality": "ENT",
+     "name": "Dr. Sk Nawazur Rahaman",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MS",
+     "time": "Friday and Saturday 10 AM, Sunday and Monday 5 - 7 PM",
+     "fee": " ₹300/-"
+    },
+    {
+     "id": 85,
+     "Speciality": "Dermatology",
+     "name": "Dr. Shabab Ahmed Damji",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, MD",
+     "time": "Thursday 4 PM",
+     "fee": " ₹300/-"
+    },
+    {
+     "id": 86,
+     "Speciality": "Pulmonology",
+     "name": "Dr. Dibyendu Saha",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, DMRD, MD (Pulm. Med.)",
+     "time": "Monday, Thursday, Friday and Saturday By Appointment",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 87,
+     "Speciality": "Cardiology and Consultant",
+     "name": "Dr. Soura Mukherjee",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "DM",
+     "time": "Monday - Thursday | 2 PM",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 88,
+     "Speciality": "Cardiology and Consultant",
+     "name": "Dr. Nirmalya Chakraborty",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "DM (Cardio-Surgeon)",
+     "time": "Friday 2 PM",
+     "fee": " ₹600/-"
+    },
+    {
+     "id": 89,
+     "Speciality": "Cardiology and Consultant",
+     "name": "Dr. Sambhunath Mukherjee",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MD",
+     "time": "Thursday 5 PM",
+     "fee": " ₹600/-"
+    },
+    {
+     "id": 90,
+     "Speciality": "Homeopathy",
+     "name": "Dr. Subhajit Banerjee",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "BHMS, MD, PGDDTN",
+     "time": "Tuesday, Thursday and Saturday | 8.30 PM",
+     "fee": " ₹300/-"
+    },
+    {
+     "id": 91,
+     "Speciality": "ENT",
+     "name": "Dr. Rajat Basak",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, DNB (Head & Neck Cancer Surg.)",
+     "time": "Monday, Thursday, Friday and Saturday By Appointment",
+     "fee": " ₹600/-"
+    },
+    {
+     "id": 92,
+     "Speciality": "ENT",
+     "name": "Dr. Debojyoti Das",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MMBS, MS",
+     "time": "Monday, Thursday, Friday and Saturday By Appointment",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 93,
+     "Speciality": "ENT",
+     "name": "Dr. Jnanabrata Roy Chowdhury",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS (Cal.), DLO, RCS (Eng.), FRCS (Edin.)",
+     "time": "Tuesday 11 AM",
+     "fee": " ₹1000/-"
+    },
+    {
+     "id": 94,
+     "Speciality": "ENT",
+     "name": "Dr. Rupam Sil",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, DLO, MS (ANAT)",
+     "time": "Thursday 1 - 2 PM",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 95,
+     "Speciality": "Psychiatry",
+     "name": "Dr. Arnab Pathak",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS (Cal.), MD, Psychiatry",
+     "time": "Tuesday, Thursday and Saturday | 8.30 PM",
+     "fee": " ₹800/-"
+    },
+    {
+     "id": 96,
+     "Speciality": "Pulmonology",
+     "name": "Dr. Madhu Priya",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, MD (Pulmonary Med.)",
+     "time": "Thursday 5 PM",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 97,
+     "Speciality": "Rheumatology",
+     "name": "Prof. Dr. Partha Pratim Das",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS (Cal.), MD (Cal.), DNB (PMR)",
+     "time": "Monday, Thursday, Friday and Saturday By Appointment",
+     "fee": " ₹900/-"
+    },
+    {
+     "id": 98,
+     "Speciality": "Dermatology",
+     "name": "Dr. A Saha",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, MD (Dermatology)",
+     "time": "Monday - Thursday | 2 PM",
+     "fee": " ₹500/-"
+    },
+    {
+     "id": 99,
+     "Speciality": "Dermatology",
+     "name": "Dr. Arijit Coondoo",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, DDVMD",
+     "time": "Monday 5 PM",
+     "fee": " ₹1200/-"
+    },
+    {
+     "id": 100,
+     "Speciality": "Haematology",
+     "name": "Dr. Debdas Bose",
+     "image": "https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg",
+     "degree": "MBBS, DCH, MD, DM",
+     "time": "Monday - Thursday | 2 PM",
+     "fee": " ₹800/-"
+    }
+
+]
+}

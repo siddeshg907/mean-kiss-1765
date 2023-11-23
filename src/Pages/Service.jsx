@@ -176,7 +176,7 @@ rating
 
 //day2
   const getServices=()=>{
-    axios.get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/services`).then((res)=>{
+    axios.get(`https://careconnect-api.onrender.com/services`).then((res)=>{
       //console.log(res.data)
       setServices(res.data)
     }).catch((error)=>{

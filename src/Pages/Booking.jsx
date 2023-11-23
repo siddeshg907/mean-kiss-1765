@@ -14,7 +14,7 @@ export default function ShowUserAppts(){
 
 
     const fetchAppts=(userData)=>{
-        axios.get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/appointments`).then((res)=>{
+        axios.get(`https://careconnect-api.onrender.com/appointments`).then((res)=>{
             const apptDataAfterFetch=[]
 
             res.data.forEach((ele)=>{
@@ -37,7 +37,7 @@ export default function ShowUserAppts(){
     //console.log(apptData,"yes")
 
     const handleDelete=(id)=>{
-        axios.delete(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/appointments/${id}`).then((res)=>{
+        axios.delete(`https://careconnect-api.onrender.com/appointments/${id}`).then((res)=>{
             //console.log(res.data)
             fetchAppts(userData)
         }).catch((error)=>{

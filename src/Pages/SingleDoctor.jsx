@@ -41,7 +41,7 @@ const[showModal,setShowModal]=useState(false)
 
  
 const handleUserApptPost=(postData,selectedDate,timeslot,userData)=>{
-    axios.post(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/appointments`,{
+    axios.post(`https://careconnect-api.onrender.com/appointments`,{
         "name":userData.name,
         "email":userData.email,
         "category":postData.name,
@@ -68,7 +68,7 @@ const handleUserApptPost=(postData,selectedDate,timeslot,userData)=>{
   }
 
 const getDoctor=(id,doctorid)=>{
-    axios.get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/services/${id}`).then((res)=>{
+    axios.get(`https://careconnect-api.onrender.com/services/${id}`).then((res)=>{
             //console.log(res.data,"post")
             res.data.doctors.forEach((ele)=>{
                 if(ele.id===doctorid){
@@ -99,7 +99,7 @@ const putRequest=(values)=>{
       };
 
       // console.log(postDataAfterChange,"put data")
-  axios.put(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/services/1`,{
+  axios.put(`https://careconnect-api.onrender.com/services/1`,{
     ...postDataAfterChange
   }).then((res)=>{
     console.log(res.data)

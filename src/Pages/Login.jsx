@@ -44,7 +44,7 @@ export default function Login(){
     console.log(isAuth,userData)
 
     const getUsers=()=>{
-        axios.get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/users`).then((res)=>{
+        axios.get(`https://careconnect-api.onrender.com/users`).then((res)=>{
             console.log(res)
             res.data.forEach((ele)=>{
                 if(email===ele.email && pass===ele.password){
@@ -78,7 +78,7 @@ export default function Login(){
       </Flex>
       <Flex p={8} flex={1} align={"center"} justify={"center"} paddingBottom={300}>
         <Stack spacing={4} w={"full"} maxW={"md"} mt={10}>
-          <Heading fontSize={"2xl"} color={"#01D5A2"}>SIGN IN TO YOUR ACCOUNT</Heading>
+          <Heading fontSize={"2xl"} color={"#01D5A2"}>LOGIN</Heading>
           <FormControl id="email">
             <FormLabel>Email address</FormLabel>
             <Input type="email" value={email} onChange={(e)=>{setEmail(e.target.value); setValid(false)}} isInvalid={valid}

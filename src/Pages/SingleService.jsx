@@ -91,7 +91,7 @@ export default function SingleProduct(){
     const [dept,setDept]=useState("")
 
     const getSingleService=(id)=>{  
-        axios.get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/services/${id}`).then((res)=>{
+        axios.get(`https://careconnect-api.onrender.com/services/${id}`).then((res)=>{
             console.log(res.data.doctors)
             setDoctors(res.data.doctors)
             setDept(res.data.name)

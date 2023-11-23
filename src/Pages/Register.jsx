@@ -181,7 +181,7 @@ function Register() {
   
   const postUserDetails=()=>{
     //loader here
-    axios.post(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/users`,{
+    axios.post(`https://careconnect-api.onrender.com/users`,{
       "name":details.firstName+" "+details.lastName,
       "email":details.email,
       "password":details.password

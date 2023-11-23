@@ -196,7 +196,7 @@ export default function Navbar(){
                 _hover={{
                   textDecoration: 'none',
                   bg: "#01D5A2",
-                }} color={isAuth ? "white":"black"}>
+                }} color={isAuth ? "white":"black"} border="solid 1px teal" backgroundColor="white" borderRadius="5px">
                 Login
                 </ChakraLink>
               </Link>

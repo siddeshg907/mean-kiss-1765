@@ -14,8 +14,8 @@
           "days": [
             {
               "slots": {
-                "03:30 PM": true,
-                "03:45 PM": true
+                "03:30 PM": false,
+                "03:45 PM": false
               }
             }
           ]
@@ -146,7 +146,7 @@
             {
               "slots": {
                 "12:00 PM": false,
-                "03:15 PM": true,
+                "03:15 PM": false,
                 "03:30 PM": true,
                 "03:45 PM": true
               }
@@ -1236,19 +1236,25 @@
       "email": "siddeshgore@gmail.com",
       "password": "Sid12345@",
       "id": 4
+    },
+    {
+      "name": "Sid Gore",
+      "email": "anyuser@gmail.com",
+      "password": "Sid12345@",
+      "id": 5
     }
   ],
   "appointments": [
     {
-      "name": "Siddesh Gore",
-      "email": "siddeshgore907@gmail.com",
-      "category": "Paediatric",
-      "doctor": "Vivek Reddy",
-      "time": "12:15 PM",
-      "day": "2023-6-20",
-      "price": 999,
+      "name": "Sid Gore",
+      "email": "siddeshgore@gmail.com",
+      "category": "Cardiology",
+      "doctor": " Ritendra Talapatra",
+      "time": "03:30 PM",
+      "day": "2023-7-24",
+      "price": 1299,
       "mode": "online",
-      "id": 1
+      "id": 2
     }
   ]
 }

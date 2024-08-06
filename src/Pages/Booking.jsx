@@ -1,4 +1,4 @@
-import { Container,Stack,Text,Divider,Spacer,Image,Radio,Button, VStack,Box,RadioGroup,HStack,Heading } from "@chakra-ui/react"
+import { Container,Text,Spacer,Image,Button, VStack,Box,HStack,Heading } from "@chakra-ui/react"
 import axios from "axios"
 import { useEffect, useState,useContext } from "react"
 import { AuthContext } from "../Context/AuthContext"
@@ -32,7 +32,7 @@ export default function ShowUserAppts(){
 
     useEffect(()=>{
         fetchAppts(userData)
-    },[])
+    })
 
     //console.log(apptData,"yes")
 

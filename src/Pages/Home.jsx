@@ -1,20 +1,20 @@
-import { Flex,Text,Box,Button, Slider } from '@chakra-ui/react'
+import { Flex,Text,Box,Button } from '@chakra-ui/react'
 import AboutLanding from '../components/AboutLanding'
 import ServicesLanding from '../components/ServicesLanding'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUserDoctor } from '@fortawesome/free-solid-svg-icons';
-import {AiOutlineClockCircle} from 'react-icons/ai'
-import {BiFirstAid} from 'react-icons/bi'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faUserDoctor } from '@fortawesome/free-solid-svg-icons';
+// import {AiOutlineClockCircle} from 'react-icons/ai'
+// import {BiFirstAid} from 'react-icons/bi'
 import AboutMedicalLanding from '../components/AboutOurMedicalLanding';
-import TipsLanding from '../components/TipsLanding';
+// import TipsLanding from '../components/TipsLanding';
 import ApptLanding from '../components/ApptLanding';
-import NewsLanding from '../components/NewsLanding';
+// import NewsLanding from '../components/NewsLanding';
 import Footer from '../components/Footer';
-import TopGrid from '../components/LandingTopGrid';
+// import TopGrid from '../components/LandingTopGrid';
 import Carousel from '../components/SliderLanding';
 import {
   Stack,
-  VStack,
+  
   useBreakpointValue
 } from '@chakra-ui/react';
 function Home(){   

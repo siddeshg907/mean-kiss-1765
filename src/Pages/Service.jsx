@@ -1,15 +1,15 @@
-import { Box,Flex,Text ,Grid,GridItem,Image} from '@chakra-ui/react'
+import { Box,Flex,Text ,Grid,Image, Spinner} from '@chakra-ui/react'
 import axios from 'axios'
 import { useEffect,useState } from 'react'
 import {Link} from 'react-router-dom'
-import {GiAmbulance,GiRibbon} from 'react-icons/gi'
+import {GiAmbulance} from 'react-icons/gi'
 import {TbNotes} from 'react-icons/tb'
 import {TbSofa,TbHeartbeat} from 'react-icons/tb'
 import {TiDeviceDesktop} from 'react-icons/ti'
-import {GrLounge} from 'react-icons/gr'
+//import {GrLounge} from 'react-icons/gr'
 import {RiCustomerService2Line} from 'react-icons/ri'
 import {MdOutlineMedicalServices,MdOutlineBloodtype} from 'react-icons/md'
-import {GrNotes} from 'react-icons/gr'
+//import {GrNotes} from 'react-icons/gr'
 import {LuStethoscope,LuBookOpen,LuNetwork} from 'react-icons/lu'
 import MyImage from "../Images/hero-bg.png";
 //skeleton here
@@ -19,13 +19,14 @@ import {
   Heading,
   Icon,
   Stack,
-  useColorModeValue,
-  Avatar,Divider
+  //useColorModeValue,
+  //Avatar,
+  Divider
 } from "@chakra-ui/react";
 import { ReactElement } from "react";
 
-import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
-import {AiFillStar} from 'react-icons/ai'
+//import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
+//import {AiFillStar} from 'react-icons/ai'
 import Footer from '../components/Footer';
 
 interface CardProps {
@@ -149,25 +150,26 @@ const Card2= ({ heading, description, icon }: CardProps) => {
 export default function Service(){
 
   const [services,setServices]=useState([])
-  const [indexFeedback, setIndexFeedback]=useState(0)
-  const [feedbackData, setFeedbackData]=useState([{
-    description
-: 
-"",
+  const [loading, setLoading] = useState(true); // Add loading state
+  //const [indexFeedback, setIndexFeedback]=useState(0)
+  //const [feedbackData, setFeedbackData]=useState([{
+   // description
+//: 
+//"",
 
-image
-: "",
+//image
+//: "",
 
-location
-: 
-"",
-name
-: 
-"",
-rating
-: 
-""
-  }])
+// location
+// : 
+// "",
+// name
+// : 
+// "",
+// rating
+// : 
+// ""
+//   }])
 
   const images=["https://media.istockphoto.com/id/1455449749/photo/let-me-take-a-listen-to-your-heartbeat.webp?b=1&s=170667a&w=0&k=20&c=n4AnFgh8RwbVlmMVcZeSCbOkL97LbXgKkXuf_n2AINY=","https://images.unsplash.com/photo-1632053002928-1919605ee6f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8UGFlZGlhdHJpY3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60","https://media.istockphoto.com/id/1125368035/photo/natural-healing-alternative-medicine.webp?b=1&s=170667a&w=0&k=20&c=jV3Xc3tw3KGfATy7o-4LUYDKJ4GocAX-ptOtichLB0k=",
 "https://plus.unsplash.com/premium_photo-1674575132185-b95568d3294e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aGVhbHRoY2FyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60","https://media.istockphoto.com/id/1373088953/photo/eye-doctor-with-female-patient-during-an-examination-in-modern-clinic-ophthalmologist-is.webp?b=1&s=170667a&w=0&k=20&c=ll74OK81G6egmoIaGR9VdOr59AhsDKl6O6HEl-Yaues=",
@@ -175,14 +177,16 @@ rating
 
 
 //day2
-  const getServices=()=>{
-    axios.get(`https://careconnect-api.onrender.com/services`).then((res)=>{
-      //console.log(res.data)
-      setServices(res.data)
-    }).catch((error)=>{
-      console.log(error)
-    })
+const getServices = async () => {
+  try {
+    const response = await axios.get('https://careconnect-api.onrender.com/services');
+    setServices(response.data);
+  } catch (error) {
+    console.error('Error fetching services:', error);
+  } finally {
+    setLoading(false); // Set loading to false after fetching
   }
+};
   useEffect(()=>{
     getServices()
     
@@ -193,7 +197,15 @@ rating
       <>
         {/* first section */}
         <Box backgroundImage={MyImage} backgroundRepeat={'no-repeat'} backgroundSize={'cover'} height={700} width='100%'>
-          <Heading as='h1' size='4xl' color={'white'} textAlign={'left'} padding="350px 0px 0px 300px" >SERVICES</Heading>
+        <Heading 
+  as="h1" 
+  size="4xl"
+  color="white" 
+  textAlign={{ base: 'center', md: 'left' }} 
+  padding={{ base: '100px 20px', md: '200px 50px', lg: '350px 0px 0px 300px' }}
+>
+  SERVICES
+</Heading>
         </Box>
         <Box p={4}>
           <Stack spacing={4} as={Container} maxW={"3xl"} textAlign={"center"}>
@@ -211,27 +223,31 @@ rating
           </Stack>
   
           <Container maxW={"10xl"} mt={12}>
-            <Flex flexWrap="wrap" gridGap={6} justify="center">
-            {services.map((ele,index)=>(
-        index===services.length-1 ? 
-          <></>
-        :
-      
-        <Card heading = {ele.name}
-        image ={images[index]}
-        description={
-          "Lorem ipsum dolor sit amet catetur, adipisicing elit."
-        }
-        href={ele.id}
-        />
-       
-      ))}
-            </Flex>
-          </Container>
+          <Flex flexWrap="wrap" gridGap={6} justify="center">
+            {loading ? (
+              <Spinner size="xl" color="#13d6a8" />
+            ) : (
+              services.map((ele,index)=>(
+                index===services.length-1 ? 
+                  <></>
+                :
+              
+                <Card key={ele.id} heading = {ele.name}
+                image ={images[index]}
+                description={
+                  "Lorem ipsum dolor sit amet catetur, adipisicing elit."
+                }
+                href={ele.id}
+                />
+               
+              )))
+            }
+          </Flex>
+        </Container>
         </Box>
         {/* second section */}
-       {/* <Box p={4} bg={"#f5f5f5"}>
-          {/* <Stack spacing={4} as={Container} maxW={"3xl"} textAlign={"center"}>
+       <Box p={4} bg={"#f5f5f5"}>
+           <Stack spacing={4} as={Container} maxW={"3xl"} textAlign={"center"}>
             <Heading fontSize={{ base: "2xl", sm: "4xl" }} fontWeight={"bold"}>
               Short heading
             </Heading>
@@ -240,7 +256,7 @@ rating
               obcaecati ut cupiditate pariatur, dignissimos, placeat amet
               officiis.
             </Text>
-          </Stack> }
+          </Stack> 
   
           <Container maxW={"10xl"} mt={12}>
             <Grid
@@ -300,22 +316,22 @@ rating
              
                 />
               </Flex>
-              <Flex  padding={"40px 20px 40px 20px"} justify={"center"} bg={"#00d6a2"} color={"white"}>
-                {/* <Image
+              <Flex   justify={"center"} bg={"#00d6a2"} color={"white"}>
+                 {/* <Image
                   rounded={"md"}
                   alt={"feature image"}
                   src={
                     "https://images.unsplash.com/photo-1554200876-56c2f25224fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
                   }
                   objectFit={"cover"}
-                /> }
+                />  */}
                 
                   <Flex direction="column" justify={"center"}gap={3}>
                   <Heading>Opening Hours</Heading>
                   <Stack direction="row">
                   <Text>Saturday</Text>
                   <Text>10:00 AM to 6:00PM</Text>
-                  </Stack>
+                  </Stack> 
        
                   <Divider
     borderBottomWidth="1px"
@@ -353,9 +369,9 @@ rating
               </Flex>
             </Grid>
           </Container>
-      </Box>*/}
+      </Box>
         {/* third section */}
-        {/*<Box p={4}>
+        <Box p={4}>
           <Stack spacing={4} as={Container} maxW={"3xl"} textAlign={"center"}>
             <Heading fontSize={{ base: "2xl", sm: "4xl" }} fontWeight={"bold"}>
               Related to Bed Bugs
@@ -422,18 +438,20 @@ rating
               />
             </Flex>
           </Container>
-              </Box>*/}
+              </Box>
         {/* fourth section --feedback map through the array end point here and update
         using state */}
-      {/*} <Stack
+      <Stack
           bg={"#053d4c"}
           py={16}
           px={8}
           spacing={{ base: 5, md: 5 }}
           align={"center"}
           direction={"column"}
-        >
-          <Flex direction={"column"}>
+        > <Text color={'#13d6a8'} fontWeight={"bold"} fontSize='2xl'>
+        "Experience unparalleled care and well-being with our dedicated health services."
+      </Text></Stack>
+          {/*<Flex direction={"column"}>
           <Text color={'#13d6a8'} fontWeight={"semibold"} fontSize='1xl'>
               WHAT OUR HAPPY
             </Text>

@@ -1,13 +1,13 @@
-import { Flex,Box,Grid,GridItem,Text,Button,Image } from "@chakra-ui/react"
-import myImage from '../Images/brain.png'
-import { BiBrain } from 'react-icons/bi';
-import {LuBaby} from 'react-icons/lu'
+import { Flex,Box,Grid,GridItem,Text,Button } from "@chakra-ui/react"
+// import myImage from '../Images/brain.png'
+// import { BiBrain } from 'react-icons/bi';
+// import {LuBaby} from 'react-icons/lu'
 import {GiHeartOrgan} from 'react-icons/gi'
 import {TbDental} from 'react-icons/tb'
 import {TbMicroscope} from 'react-icons/tb'
 import {AiOutlineEye} from 'react-icons/ai'
-import {BsLungs} from 'react-icons/bs'
-import {GiSkeleton} from 'react-icons/gi'
+// import {BsLungs} from 'react-icons/bs'
+// import {GiSkeleton} from 'react-icons/gi'
 
 import React from "react";
 import {

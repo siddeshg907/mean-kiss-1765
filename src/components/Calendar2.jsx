@@ -2,12 +2,12 @@ import { Box, Button } from "@chakra-ui/react";
 import { useState,useEffect } from "react";
 import { useContext } from "react";
 import { AuthContext } from "../Context/AuthContext";
-import axios from "axios";
+// import axios from "axios";
 
 const Calendar = ({ availableDates, days,putRequest,postData,SingleDoctor,setShowCheckout,setTimeSlotForCheckOut,setUpdatedDataForCheckOut,setSelectedDateForCheckOut,setShowModal}) => {
   const [selectedDate, setSelectedDate] = useState(null);
   const [data,setData] =  useState(days);
-  const {isAuth, userData}=useContext(AuthContext)
+  const {isAuth}=useContext(AuthContext)
 
 
 useEffect(()=>{

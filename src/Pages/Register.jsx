@@ -3,57 +3,56 @@ import {
   FormErrorMessage,
   FormHelperText,
   Input,
-  FormLabel,useToast,Spinner,Switch,
-  Image,
+  FormLabel,useToast,Switch,
+
   Modal,
   ModalOverlay,
-  ModalContent,Box,Skeleton
+  ModalContent,Box
 } from "@chakra-ui/react";
 import {
-  Flex,
+
   Stack,
   Heading,
   Text,
   Container,
-  Button,
+
   SimpleGrid,
-  Avatar,
-  AvatarGroup,
+  
   useBreakpointValue,
   IconProps,
   Icon,
 } from '@chakra-ui/react';
 
 import axios from 'axios'
-import { useState,useEffect,useContext } from "react";
+import { useState,useContext } from "react";
 import {useNavigate} from 'react-router-dom'
 
 import * as yup from "yup";
 import OTP from "../components/PinInput";
 import Footer from '../components/Footer'
 import { AuthContext } from "../Context/AuthContext.jsx";
-const avatars = [
-  {
-    name: 'Ryan Florence',
-    url: 'https://images.unsplash.com/photo-1612531386530-97286d97c2d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fGRvY3RvcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60',
-  },
-  {
-    name: 'Segun Adebayo',
-    url: 'https://bit.ly/sage-adebayo',
-  },
-  {
-    name: 'Kent Dodds',
-    url: 'https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aW5kaWFufGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60',
-  },
-  {
-    name: 'Prosper Otemuyiwa',
-    url: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGRvY3RvcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60',
-  },
-  {
-    name: 'Christian Nwamba',
-    url: 'https://bit.ly/code-beast',
-  },
-];
+// const avatars = [
+//   {
+//     name: 'Ryan Florence',
+//     url: 'https://images.unsplash.com/photo-1612531386530-97286d97c2d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fGRvY3RvcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60',
+//   },
+//   {
+//     name: 'Segun Adebayo',
+//     url: 'https://bit.ly/sage-adebayo',
+//   },
+//   {
+//     name: 'Kent Dodds',
+//     url: 'https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aW5kaWFufGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60',
+//   },
+//   {
+//     name: 'Prosper Otemuyiwa',
+//     url: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGRvY3RvcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60',
+//   },
+//   {
+//     name: 'Christian Nwamba',
+//     url: 'https://bit.ly/code-beast',
+//   },
+// ];
 
 
 const schema = yup.object().shape({
@@ -96,11 +95,12 @@ function Register() {
   const [submitStatus, setSubmitStatus]=useState(false)
   const [errors, setErrors] = useState({});
   const [generatedOTP,setgeneratedOTP]=useState("")
-  const [postSuccess,setPostSuccess]=useState(false)
+  const [//postSuccess,
+    setPostSuccess]=useState(false)
   const [misMatch,setMisMatch]=useState(false)
   const navigate=useNavigate()
-
-  const {setAuth,userData,setUserData}=useContext(AuthContext)
+  
+  const {setAuth,setUserData}=useContext(AuthContext)
 
   function generateOTP(){
     return Math.floor(1000 + Math.random() * 9000)

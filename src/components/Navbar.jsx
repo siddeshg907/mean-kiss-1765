@@ -4,10 +4,10 @@ import {
   Flex,
   HStack,
   IconButton,
-  Text,
+  // Text,
   Image
 } from "@chakra-ui/react";
-import { ReactNode } from "react";
+// import { ReactNode } from "react";
 import { useContext } from "react";
 import {
   Avatar,

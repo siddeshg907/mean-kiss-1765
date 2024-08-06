@@ -1,5 +1,5 @@
 
-import { Flex, Grid, GridItem, Text,Stack, Image,Box,Container,VStack ,chakra} from "@chakra-ui/react";
+import { Flex, Grid, GridItem, Stack, Image,Box,Container,VStack ,chakra} from "@chakra-ui/react";
 
 
 const Card = ({image}) => {

@@ -1,6 +1,6 @@
 import { useState,useContext } from 'react'
 import { useNavigate } from 'react-router-dom';
-import { Box,Image,Input,Flex,InputRightElement,Button, InputGroup } from '@chakra-ui/react'
+import { Image,Input,Flex,InputRightElement,Button, InputGroup } from '@chakra-ui/react'
 import axios from 'axios'
 import { AuthContext } from '../Context/AuthContext'
 import Footer from '../components/Footer'

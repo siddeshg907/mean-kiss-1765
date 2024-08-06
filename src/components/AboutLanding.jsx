@@ -6,47 +6,47 @@ import {
   Heading,
   Text,
   Stack,
-  Icon,
-  HStack,
-  VStack,
-  Box,
+  // Icon,
+  // HStack,
+  // VStack,
+  // Box,
   Button
 } from '@chakra-ui/react';
 
-import { MdCheckCircle } from 'react-icons/md';
-import { ReactElement } from 'react';
+// import { MdCheckCircle } from 'react-icons/md';
+// import { ReactElement } from 'react';
 
 
 
-const list=[
-  { id: 0,
-    title: 'Adult Trauma Center',
-    text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
-  },
-  {id: 1,
-  title: 'Heart Institute',
-  text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
-},{id: 2,
-title: 'BLactation Classes',
-text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
-},
-{
-  id: 3,
-  title: "Children's Trauma Center",
-  text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
-},
-{
-  id: 4,
-  title: 'Plastic Surgery',
-  text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
-},
-{
-  id: 5,
-  title: 'Oral Surgery',
-  text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
-},
+// const list=[
+//   { id: 0,
+//     title: 'Adult Trauma Center',
+//     text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
+//   },
+//   {id: 1,
+//   title: 'Heart Institute',
+//   text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
+// },{id: 2,
+// title: 'BLactation Classes',
+// text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
+// },
+// {
+//   id: 3,
+//   title: "Children's Trauma Center",
+//   text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
+// },
+// {
+//   id: 4,
+//   title: 'Plastic Surgery',
+//   text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
+// },
+// {
+//   id: 5,
+//   title: 'Oral Surgery',
+//   text: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.',
+// },
 
-]
+// ]
 
 
 export default function AboutLanding() {

@@ -6,21 +6,20 @@ import {
     ModalOverlay,
     ModalContent,
   Box,
-  Badge,
-  Link,
+  
   Button,
   Container,
-  Flex,
+  
   Heading,
-  Icon,
+  
   Stack,
   Text,
-  useColorModeValue,
+
 } from '@chakra-ui/react';
 import { useNavigate } from "react-router-dom";
-import { ReactElement } from 'react';
+// import { ReactElement } from 'react';
 import Calendar from "../components/Calendar2"
-import { Image, useAccordion } from "@chakra-ui/react"
+import { Image } from "@chakra-ui/react"
 import CheckOut from "./Checkout"
 import Footer from "../components/Footer";
 

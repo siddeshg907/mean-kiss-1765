@@ -5,8 +5,8 @@ import MyImage from "../Images/hero-bg.png";
 
 import { Text,Image } from "@chakra-ui/react"
 
-import { Grid } from "@chakra-ui/react"
-import { GridItem,Box } from "@chakra-ui/react"
+// import { Grid } from "@chakra-ui/react"
+import { Box } from "@chakra-ui/react"
 import { Link } from "react-router-dom"
 
 import {
@@ -15,21 +15,20 @@ import {
   Container,
   Flex,
   Heading,
-  Icon,
+ 
   Stack,
-  useColorModeValue,
-  Avatar,Divider
+ 
 } from "@chakra-ui/react";
 import { ReactElement } from "react";
-import {
-  FcAbout,
-  FcAssistant,
-  FcCollaboration,
-  FcDonate,
-  FcManager
-} from "react-icons/fc";
-import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
-import {AiFillStar} from 'react-icons/ai'
+// import {
+//   FcAbout,
+//   FcAssistant,
+//   FcCollaboration,
+//   FcDonate,
+//   FcManager
+// } from "react-icons/fc";
+// import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
+// import {AiFillStar} from 'react-icons/ai'
 import Footer from "../components/Footer"
 
 

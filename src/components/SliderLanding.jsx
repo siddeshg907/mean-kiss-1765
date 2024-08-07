@@ -24,7 +24,7 @@ const settings = {
 export default function Carousel() {
   // As we have used custom buttons, we need a reference variable to
   // change the state
-  const [slider,setSlider] = React.useState (null);
+  //const [slider,setSlider] = React.useState (null);
 
   // These are the breakpoints which changes the position of the
   // buttons as the screen size changes
@@ -57,6 +57,7 @@ export default function Carousel() {
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
       />
     
+   
       
       {/* Slider */}
       <Box
@@ -70,7 +71,9 @@ export default function Carousel() {
              zIndex={1}
              transformOrigin="top left"
            />
-      <Slider {...settings} ref={(slider) => setSlider(slider)}>
+      <Slider {...settings}
+       //ref={(slider) => setSlider(slider)}
+       >
         {cards.map((url, index) => (
           <Box
             key={index}

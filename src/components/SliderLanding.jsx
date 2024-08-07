@@ -1,9 +1,10 @@
 import React from 'react';
 import { Box} from '@chakra-ui/react';
+import Slider from 'react-slick';
 // Here we have used react-icons package for the icons
 // import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
 // And react-slick as our Carousel Lib
-import Slider from 'react-slick';
+
 // import {AiFillPlayCircle} from 'react-icons/fa'
 
 
@@ -23,8 +24,7 @@ const settings = {
 export default function Carousel() {
   // As we have used custom buttons, we need a reference variable to
   // change the state
-  const [//slider,
-     setSlider] = React.useState (null);
+  const [slider,setSlider] = React.useState (null);
 
   // These are the breakpoints which changes the position of the
   // buttons as the screen size changes

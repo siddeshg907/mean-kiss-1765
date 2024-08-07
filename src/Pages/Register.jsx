@@ -95,8 +95,7 @@ function Register() {
   const [submitStatus, setSubmitStatus]=useState(false)
   const [errors, setErrors] = useState({});
   const [generatedOTP,setgeneratedOTP]=useState("")
-  const [//postSuccess,
-    setPostSuccess]=useState(false)
+  const [postSuccess,setPostSuccess]=useState(false)
   const [misMatch,setMisMatch]=useState(false)
   const navigate=useNavigate()
   
